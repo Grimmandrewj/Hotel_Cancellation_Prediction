@@ -42,7 +42,7 @@ The Random Forest model performed slightly better and maintained a very consiste
 
 Overall, both models performed well, but the Random Forest model yielded more accurate results for this dataset.  We would recommend that the Random Forest model be used to test the prediction as it performed consistently well throughout all of the iterations and optimizations.  Since the difference in results was minimal, using 100 estimators appears to be the most effective solution as the accuracy was consistent and it completed the analysis more quickly.  In all attempts, the top three features that contributed to the cancellation prediction in order of importance were (1) lead time, (2) average price per room, and (3) number of special requests: 
 
-![image](https://github.com/Grimmandrewj/Hotel_Cancellation_Prediction/assets/120341249/738136e6-96f5-4f33-946f-63cd371c91c3)
+![image](https://github.com/Grimmandrewj/Hotel_Cancellation_Prediction/assets/120341249/2cf8374e-e5b6-42af-a4c1-f98007da2efd)
 
 We feel it is logical that the lead time would be an important datapoint since guests' plans for travel are more likely to change the further it is from the date of their stay.  However, it was somewhat surprising that it was consistently the most important category by nearly double with each optimization.  
 
